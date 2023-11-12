@@ -1,0 +1,1 @@
+{"version":3,"file":"notFoundRoute.js","sourceRoot":"","sources":["../../../../src/common/middlewares/mini/notFoundRoute.ts"],"names":[],"mappings":";;;;;AACA,iFAAyD;AAEzD,MAAM,QAAQ;IACL,GAAG,CAAC,IAAa,EAAE,IAAc,EAAE,IAAkB;QAC1D,IAAI,CAAC,IAAI,qBAAW,CAAC,uBAAuB,EAAE,GAAG,EAAE,eAAe,CAAC,CAAC,CAAC;IACvE,CAAC;CACF;AAED,kBAAe,QAAQ,CAAC"}

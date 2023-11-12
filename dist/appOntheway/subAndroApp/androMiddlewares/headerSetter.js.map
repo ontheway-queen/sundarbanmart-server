@@ -1,0 +1,1 @@
+{"version":3,"file":"headerSetter.js","sourceRoot":"","sources":["../../../../src/appOntheway/subAndroApp/androMiddlewares/headerSetter.ts"],"names":[],"mappings":";;AAEA,MAAM,YAAY;IACT,SAAS,CAAC,GAAY,EAAE,IAAc,EAAE,IAAkB;QAC/D,GAAG,CAAC,KAAK,GAAG,IAAI,CAAC;QACjB,IAAI,EAAE,CAAC;IACT,CAAC;CACF;AAED,kBAAe,YAAY,CAAC"}
