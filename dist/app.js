@@ -15,7 +15,14 @@ const notFoundRoute_1 = __importDefault(require("./common/middlewares/mini/notFo
 const otwApp_1 = __importDefault(require("./appOntheway/otwApp"));
 const path_1 = __importDefault(require("path"));
 const compress_1 = __importDefault(require("./common/middlewares/compresser/compress"));
-const origin = ['http://localhost:3000', 'http://localhost:3001'];
+const origin = [
+    'http://localhost:3000',
+    'http://localhost:3001',
+    'https://server.sunderbanmart.com',
+    'https://www.server.sunderbanmart.com',
+    'https://sunderbanmart.com',
+    'https://www.sunderbanmart.com',
+];
 class App {
     constructor(port, otwRouters) {
         this.origin = origin;

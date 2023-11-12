@@ -13,7 +13,14 @@ import OtwApp from './appOntheway/otwApp';
 import path from 'path';
 import Compresser from './common/middlewares/compresser/compress';
 
-const origin = ['http://localhost:3000', 'http://localhost:3001'];
+const origin = [
+  'http://localhost:3000',
+  'http://localhost:3001',
+  'https://server.sunderbanmart.com',
+  'https://www.server.sunderbanmart.com',
+  'https://sunderbanmart.com',
+  'https://www.sunderbanmart.com',
+];
 
 class App {
   private app: Application;
