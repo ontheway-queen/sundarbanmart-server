@@ -15,6 +15,8 @@ export const socketServer = (app: Application) => {
         'https://www.server.sunderbanmart.com',
         'https://sunderbanmart.com',
         'https://www.sunderbanmart.com',
+        'https://admin.sunderbanmart.com',
+        'https://www.admin.sunderbanmart.com',
       ],
       credentials: true,
     },
