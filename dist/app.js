@@ -22,6 +22,8 @@ const origin = [
     'https://www.server.sunderbanmart.com',
     'https://sunderbanmart.com',
     'https://www.sunderbanmart.com',
+    'https://admin.sunderbanmart.com',
+    'https://www.admin.sunderbanmart.com',
 ];
 class App {
     constructor(port, otwRouters) {
