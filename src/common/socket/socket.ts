@@ -6,6 +6,7 @@ export let io: Server;
 export const socketServer = (app: Application) => {
   const server = http.createServer(app);
   io = new Server(server, {
+    path: '/api/socket',
     cors: {
       origin: [
         'http://localhost:3000',

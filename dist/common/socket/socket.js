@@ -9,6 +9,7 @@ const http_1 = __importDefault(require("http"));
 const socketServer = (app) => {
     const server = http_1.default.createServer(app);
     exports.io = new socket_io_1.Server(server, {
+        path: '/api/socket',
         cors: {
             origin: [
                 'http://localhost:3000',
