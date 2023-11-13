@@ -50,17 +50,17 @@ class App {
          *
          * GET IMAGE
          */
-        this.app.get('/get/image/:folder/:filename', (req, res) => {
+        this.app.get('/api/get/image/:folder/:filename', (req, res) => {
             const { folder, filename } = req.params;
             res.sendFile(path_1.default.resolve(`${__dirname}/uploads/${folder}/${filename}`));
         });
         // send a video file
-        this.app.get('/get/video/:folder/:filename', (req, res) => {
+        this.app.get('/api/get/video/:folder/:filename', (req, res) => {
             const { folder, filename } = req.params;
             res.sendFile(path_1.default.resolve(`${__dirname}/uploads/${folder}/${filename}`));
         });
         // send video file as stream
-        this.app.get('/get/video/stream/:folder/:filename', (req, res) => {
+        this.app.get('/api/get/video/stream/:folder/:filename', (req, res) => {
             const { folder, filename } = req.params;
             // Ensure there is a range given for the video
             const range = req.headers.range;
@@ -92,7 +92,7 @@ class App {
         /**
          * DOWNLOAD FILE
          */
-        this.app.get('/download/files/:folder/:filename', (req, res) => {
+        this.app.get('/api/download/files/:folder/:filename', (req, res) => {
             const { folder, filename } = req.params;
             res.download(path_1.default.resolve(`${__dirname}/uploads/${folder}/${filename}`));
         });
