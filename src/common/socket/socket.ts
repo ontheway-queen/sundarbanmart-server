@@ -17,6 +17,7 @@ export const socketServer = (app: Application) => {
         'https://www.sunderbanmart.com',
         'https://admin.sunderbanmart.com',
         'https://www.admin.sunderbanmart.com',
+        'https://main.d1qfwt8w8le6q6.amplifyapp.com',
       ],
       credentials: true,
     },

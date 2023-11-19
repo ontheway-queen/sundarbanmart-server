@@ -58,7 +58,7 @@ class AuthServices extends AbstractServices implements IAuth {
       if (!refCheck.length) {
         return {
           success: false,
-          msg: 'Invalid queen reference id!',
+          msg: 'Invalid ME reference id!',
         };
       }
     }

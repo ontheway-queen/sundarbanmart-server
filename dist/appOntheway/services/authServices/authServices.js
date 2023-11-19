@@ -51,7 +51,7 @@ class AuthServices extends abstractServices_1.default {
                 if (!refCheck.length) {
                     return {
                         success: false,
-                        msg: 'Invalid queen reference id!',
+                        msg: 'Invalid ME reference id!',
                     };
                 }
             }

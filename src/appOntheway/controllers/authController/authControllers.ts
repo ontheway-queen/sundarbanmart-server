@@ -31,7 +31,7 @@ class AuthControllers extends AbstractController {
           const notification = await this.notificationServices.postNotification(
             'new-queen',
             {
-              msg: 'New Queen Registered',
+              msg: 'New ME Registered',
             }
           );
 

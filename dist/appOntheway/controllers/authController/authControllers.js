@@ -47,7 +47,7 @@ class AuthControllers extends abstractController_1.default {
                 if (data.success) {
                     res.status(200).json({ success: true, data: data.user });
                     const notification = yield this.notificationServices.postNotification('new-queen', {
-                        msg: 'New Queen Registered',
+                        msg: 'New ME Registered',
                     });
                     socket_1.io.emit('new_notification', notification);
                     socket_1.io.emit('new_queen', data.user);
