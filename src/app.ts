@@ -15,6 +15,10 @@ import Compresser from './common/middlewares/compresser/compress';
 
 const origin = [
   'http://localhost:3000',
+  'http://192.168.0.237:3000',
+  'http://192.168.0.237:3001',
+  'http://192.168.0.238:3000',
+  'http://192.168.0.238:3001',
   'http://localhost:3001',
   'https://server.sunderbanmart.com',
   'https://www.server.sunderbanmart.com',
